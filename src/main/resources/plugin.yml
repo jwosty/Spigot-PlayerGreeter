@@ -4,11 +4,10 @@ version: 0.1
 api-version: 1.16
 author: Jwosty
 commands:
-  reloadpg:
-    description: Reloads config.yml for PlayerGreeter
-    useage: /<command>
+  reload:
+    description: Reloads PlayerGreeter config
+    useage: /playergreeter:<command>
     permission: playergreeter.reload
 permissions:
   playergreeter.reload:
     default: op
-    default

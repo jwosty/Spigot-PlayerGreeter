@@ -1,0 +1,10 @@
+main: com.wostenberg.minecraft.playergreeter.PlayerGreeterPlugin
+name: PlayerGreeter
+version: 0.1
+api-version: 1.16
+author: Jwosty
+commands:
+  reloadpg:
+    description: Reloads config.yml for PlayerGreeter
+    useage: /<command>
+    permission: playergreeter.reload

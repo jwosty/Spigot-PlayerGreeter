@@ -8,3 +8,7 @@ commands:
     description: Reloads config.yml for PlayerGreeter
     useage: /<command>
     permission: playergreeter.reload
+permissions:
+  playergreeter.reload:
+    default: op
+    default

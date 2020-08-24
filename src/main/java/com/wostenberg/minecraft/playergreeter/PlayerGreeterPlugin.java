@@ -16,8 +16,8 @@ public class PlayerGreeterPlugin extends JavaPlugin implements Listener {
     FileConfiguration config;
     
     Map<Pattern, BiFunction<Server,Player,String>> substitutions = Map.of(
-        (Pattern.compile("%player_name%")), ((server,player) -> player.getName()),
-        (Pattern.compile("%player_count%")), ((server,player) -> String.valueOf(server.getOnlinePlayers().size()))
+        (Pattern.compile("${player_name}")), ((server,player) -> player.getName()),
+        (Pattern.compile("${player_count}")), ((server,player) -> String.valueOf(server.getOnlinePlayers().size()))
     );
 
     static final String gmsgPath = "greetingMessage";
